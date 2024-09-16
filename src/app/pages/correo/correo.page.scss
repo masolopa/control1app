@@ -1,0 +1,92 @@
+ion-content {
+  --padding-top: 20px;
+  --padding-bottom: 20px;
+  --padding-end: 20px;
+  --padding-start: 20px;
+ 
+}
+
+
+.center-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh; 
+}
+
+ion-card {
+  --background: rgba(255, 255, 255, 0.541); 
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgb(7, 22, 54);
+  align-items: center; 
+}
+
+
+.card-background {
+  position: relative;
+  background-image: url('../../../assets/img/compu.jpg');
+  background-size: cover;
+  color: #000000; 
+  padding: 60px; 
+}
+
+ion-card-header {
+  text-align: center;
+}
+
+ion-card-subtitle {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+ion-input {
+  --padding-start: 10px;
+  --padding-end: 10px;
+  color: #000000;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border: 1px solid #0a1238; /* Borde negro */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+ion-button {
+  color: #ffffff;
+  --background: #031a30;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ion-button ion-icon {
+  margin-right: 8px;
+}
+
+ion-toolbar {
+  font-size: 15px;
+  color: #ffffff;
+  --background: #031a30;     
+  border-radius: 10px; 
+  height: 20px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+ion-title {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}

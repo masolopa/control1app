@@ -1,0 +1,23 @@
+<ion-content>
+  <div class="center-container">
+    <div class="ion-padding-vertical">
+      <ion-card class="ion-text-center card-background">
+        <ion-card-content>
+            <ion-toolbar>
+              Pregunta Secreta
+            </ion-toolbar>
+            <br><br>
+        <ion-card>
+          <ion-card-subtitle>{{ usuario.preguntaSecreta }}</ion-card-subtitle>
+          <ion-label></ion-label>
+          <ion-input [(ngModel)]="respuesta" placeholder="Ej:nombre de tu mascota"></ion-input>
+          <ion-button shape="block" size="small" (click)="validarRespuestaSecreta()">
+            <ion-icon name="key"></ion-icon>
+            Recuperar contraseña
+          </ion-button>
+        </ion-card>
+        </ion-card-content>
+      </ion-card>
+    </div>
+  </div>
+</ion-content>

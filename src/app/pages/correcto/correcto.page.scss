@@ -1,0 +1,38 @@
+ion-content {
+    --padding-top: 20px;
+    --padding-bottom: 20px;
+    --padding-end: 20px;
+    --padding-start: 20px;
+   
+  }
+
+    
+  .center-container {
+    display:flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh; 
+  }
+
+
+
+  .card-background {
+    position:relative;
+    background-image: url('../../../assets/img/correcto.png');
+    background-size: 455px;
+    background-position:center;
+    background-repeat: no-repeat; 
+    padding: 180px; 
+    --background: rgba(219, 116, 137, 0.689); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(7, 22, 54);
+    align-items: center; 
+    height: 500px;
+  }
+
+  .ion-button {
+    margin-top: 250px;
+    background-color: #010847; /* Cambia el color a tu preferencia */
+    color:#ffffff ; /* Cambia el color del texto si es necesario */
+  }
+  
